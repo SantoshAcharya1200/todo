@@ -1,3 +1,5 @@
+This project is based off dennis Ivy's todo app 
+
 What did I learn:
 
 * CRUD operations
