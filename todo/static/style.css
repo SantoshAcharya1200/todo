@@ -1,0 +1,15 @@
+body{
+    background-color: #C2DED1;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+}
+.container{
+    max-width: 550px;
+    margin: auto;
+    background-color: #ECE5C7;
+
+
+}
+a,p{
+    color: #354259;
+}

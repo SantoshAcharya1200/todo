@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p>guess the word</p>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="guess">
+</form>
+{% for task in words %}
+<li>
+{{ task.word }}
+</li>
+{% endfor %}
+{% endblock content %}
