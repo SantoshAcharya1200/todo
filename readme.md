@@ -10,6 +10,8 @@ What did I learn:
 
 * url mapping
 
+* Userspecific permission
+
 * Model
 
 
